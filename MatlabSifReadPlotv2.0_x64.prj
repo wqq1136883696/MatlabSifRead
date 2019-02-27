@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="12692283" file="G:\Group_Work\Program\Matlab_Sif_Read_v2.0\Matlab_Sif_Readv2.0\MatlabSifReadPlotv2.0_x64.prj" location="G:\Group_Work\Program\Matlab_Sif_Read_v2.0\Matlab_Sif_Readv2.0" name="MatlabSifReadPlotv2.0_x64" target="target.mlapps" target-name="App 打包">
+    <param.appname>MatlabSifReadPlotv2.0_x64</param.appname>
+    <param.authnamewatermark>wyatt wang</param.authnamewatermark>
+    <param.email>1136883696@qq.com</param.email>
+    <param.company>ECNU</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>读取sif文件，并且画图，支持一些简单的数据计算，也支持运行命令</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\image\14.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+      <item>win32</item>
+    </param.platforms>
+    <param.output>G:\Group_Work\Program\Matlab_Sif_Read_v2.0\Matlab_Sif_Readv2.0</param.output>
+    <param.guid>c9ce3290-086a-4176-a78a-e258656d5ec5</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MatlabSifRead.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\@DisplayPromptMessage\DisplayPromptMessage.m</file>
+      <file>${PROJECT_ROOT}\@MatlabSifOpen\MatlabSifOpen.m</file>
+      <file>${PROJECT_ROOT}\@MatlabSifPlot\MatlabSifPlot.m</file>
+      <file>${PROJECT_ROOT}\commands.m</file>
+      <file>${PROJECT_ROOT}\MatlabUI_sif_show.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\atsifio</file>
+      <file>${PROJECT_ROOT}\ATSIFIO.dll</file>
+      <file>${PROJECT_ROOT}\ATSIFIO64.dll</file>
+      <file>${PROJECT_ROOT}\atspooler.dll</file>
+      <file>${PROJECT_ROOT}\CommandHistory.m</file>
+      <file>${PROJECT_ROOT}\Sample_Sif_File</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\Group_Work\Program\Matlab_Sif_Read_v2.0" name="Matlab_Sif_Readv2.0" optional="false">G:\Group_Work\Program\Matlab_Sif_Read_v2.0\Matlab_Sif_Readv2.0</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
