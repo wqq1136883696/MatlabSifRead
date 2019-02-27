@@ -1,0 +1,2 @@
+# MatlabSifRead
+使用matlab编写的一个GUI，可以用来绘制从Andor光谱仪采集的sif数据
